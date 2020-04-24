@@ -1,0 +1,12 @@
+str='A1Z4C3'
+lis=[]
+num=[]
+for i in range(0,len(str),2):
+    lis.append(str[i])
+lis.sort()
+b=''.join(lis)
+for i in range(1,len(str),2):
+    num.append(str[i])
+num.sort()
+a=''.join(num)
+print(b+a)
